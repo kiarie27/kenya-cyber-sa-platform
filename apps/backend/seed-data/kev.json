@@ -1,0 +1,358 @@
+[
+  {
+    "cve": "CVE-2024-6099",
+    "product": "Windows",
+    "vendor": "Microsoft",
+    "status": "Exploited",
+    "date_added": "2025-09-05",
+    "deadline": "2025-10-05",
+    "reference": "CISA KEV",
+    "kenya_context": {
+      "sectors": [
+        "Education",
+        "Government",
+        "Energy"
+      ],
+      "recommended_deadline": "2025-10-03"
+    }
+  },
+  {
+    "cve": "CVE-2024-3066",
+    "product": "Exchange",
+    "vendor": "Oracle",
+    "status": "Exploited",
+    "date_added": "2025-09-21",
+    "deadline": "2025-10-21",
+    "reference": "CISA KEV",
+    "kenya_context": {
+      "sectors": [
+        "Healthcare",
+        "County"
+      ],
+      "recommended_deadline": "2025-10-21"
+    }
+  },
+  {
+    "cve": "CVE-2024-3037",
+    "product": "NetScaler ADC",
+    "vendor": "Citrix",
+    "status": "High",
+    "date_added": "2025-09-14",
+    "deadline": "2025-10-14",
+    "reference": "CISA KEV",
+    "kenya_context": {
+      "sectors": [
+        "Healthcare",
+        "Energy",
+        "Education"
+      ],
+      "recommended_deadline": "2025-10-09"
+    }
+  },
+  {
+    "cve": "CVE-2024-7006",
+    "product": "MOVEit Transfer",
+    "vendor": "Progress",
+    "status": "Exploited",
+    "date_added": "2025-08-28",
+    "deadline": "2025-09-04",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "County",
+        "Healthcare",
+        "Energy"
+      ],
+      "recommended_deadline": "2025-09-02"
+    }
+  },
+  {
+    "cve": "CVE-2024-1083",
+    "product": "FortiOS SSL-VPN",
+    "vendor": "Fortinet",
+    "status": "Exploited",
+    "date_added": "2025-08-31",
+    "deadline": "2025-09-21",
+    "reference": "CISA KEV",
+    "kenya_context": {
+      "sectors": [
+        "Energy",
+        "Healthcare"
+      ],
+      "recommended_deadline": "2025-09-16"
+    }
+  },
+  {
+    "cve": "CVE-2024-6282",
+    "product": "ASA/FTD",
+    "vendor": "Cisco",
+    "status": "Exploited",
+    "date_added": "2025-09-12",
+    "deadline": "2025-09-19",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "Telecom",
+        "Healthcare",
+        "Financial"
+      ],
+      "recommended_deadline": "2025-09-17"
+    }
+  },
+  {
+    "cve": "CVE-2024-1880",
+    "product": "Confluence",
+    "vendor": "Atlassian",
+    "status": "Exploited",
+    "date_added": "2025-09-17",
+    "deadline": "2025-10-17",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "Government",
+        "Education",
+        "Financial"
+      ],
+      "recommended_deadline": "2025-10-15"
+    }
+  },
+  {
+    "cve": "CVE-2024-4024",
+    "product": "vCenter",
+    "vendor": "VMware",
+    "status": "Exploited",
+    "date_added": "2025-09-09",
+    "deadline": "2025-09-23",
+    "reference": "CISA KEV",
+    "kenya_context": {
+      "sectors": [
+        "Financial"
+      ],
+      "recommended_deadline": "2025-09-21"
+    }
+  },
+  {
+    "cve": "CVE-2024-5678",
+    "product": "HTTP Server",
+    "vendor": "Apache",
+    "status": "High",
+    "date_added": "2025-09-05",
+    "deadline": "2025-09-26",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "County",
+        "Healthcare"
+      ],
+      "recommended_deadline": "2025-09-21"
+    }
+  },
+  {
+    "cve": "CVE-2024-4008",
+    "product": "Drupal Core",
+    "vendor": "Drupal",
+    "status": "High",
+    "date_added": "2025-09-10",
+    "deadline": "2025-10-10",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "Energy",
+        "Telecom",
+        "Government"
+      ],
+      "recommended_deadline": "2025-10-08"
+    }
+  },
+  {
+    "cve": "CVE-2024-6941",
+    "product": "Joomla CMS",
+    "vendor": "Joomla!",
+    "status": "Exploited",
+    "date_added": "2025-09-07",
+    "deadline": "2025-10-07",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "Education",
+        "Financial",
+        "Telecom"
+      ],
+      "recommended_deadline": "2025-10-05"
+    }
+  },
+  {
+    "cve": "CVE-2024-3667",
+    "product": "ManageEngine",
+    "vendor": "Zoho",
+    "status": "High",
+    "date_added": "2025-09-13",
+    "deadline": "2025-10-04",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "Education"
+      ],
+      "recommended_deadline": "2025-10-04"
+    }
+  },
+  {
+    "cve": "CVE-2024-3289",
+    "product": "Windows",
+    "vendor": "Microsoft",
+    "status": "Exploited",
+    "date_added": "2025-09-17",
+    "deadline": "2025-10-17",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "Healthcare",
+        "Government",
+        "Financial"
+      ],
+      "recommended_deadline": "2025-10-15"
+    }
+  },
+  {
+    "cve": "CVE-2024-7027",
+    "product": "Exchange",
+    "vendor": "Oracle",
+    "status": "High",
+    "date_added": "2025-09-24",
+    "deadline": "2025-10-08",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "County"
+      ],
+      "recommended_deadline": "2025-10-08"
+    }
+  },
+  {
+    "cve": "CVE-2024-6603",
+    "product": "NetScaler ADC",
+    "vendor": "Citrix",
+    "status": "Exploited",
+    "date_added": "2025-09-10",
+    "deadline": "2025-09-17",
+    "reference": "CISA KEV",
+    "kenya_context": {
+      "sectors": [
+        "Government",
+        "Education"
+      ],
+      "recommended_deadline": "2025-09-12"
+    }
+  },
+  {
+    "cve": "CVE-2024-3506",
+    "product": "MOVEit Transfer",
+    "vendor": "Progress",
+    "status": "Exploited",
+    "date_added": "2025-08-23",
+    "deadline": "2025-09-06",
+    "reference": "CISA KEV",
+    "kenya_context": {
+      "sectors": [
+        "Financial",
+        "Healthcare",
+        "Telecom"
+      ],
+      "recommended_deadline": "2025-09-01"
+    }
+  },
+  {
+    "cve": "CVE-2024-5428",
+    "product": "FortiOS SSL-VPN",
+    "vendor": "Fortinet",
+    "status": "Exploited",
+    "date_added": "2025-09-24",
+    "deadline": "2025-10-24",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "Energy",
+        "Telecom"
+      ],
+      "recommended_deadline": "2025-10-22"
+    }
+  },
+  {
+    "cve": "CVE-2024-8157",
+    "product": "ASA/FTD",
+    "vendor": "Cisco",
+    "status": "High",
+    "date_added": "2025-09-16",
+    "deadline": "2025-10-16",
+    "reference": "CISA KEV",
+    "kenya_context": {
+      "sectors": [
+        "Energy"
+      ],
+      "recommended_deadline": "2025-10-14"
+    }
+  },
+  {
+    "cve": "CVE-2024-2940",
+    "product": "Confluence",
+    "vendor": "Atlassian",
+    "status": "High",
+    "date_added": "2025-08-25",
+    "deadline": "2025-09-08",
+    "reference": "CISA KEV",
+    "kenya_context": {
+      "sectors": [
+        "Telecom",
+        "Energy",
+        "Government"
+      ],
+      "recommended_deadline": "2025-09-03"
+    }
+  },
+  {
+    "cve": "CVE-2024-7781",
+    "product": "vCenter",
+    "vendor": "VMware",
+    "status": "High",
+    "date_added": "2025-09-27",
+    "deadline": "2025-10-27",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "County",
+        "Energy"
+      ],
+      "recommended_deadline": "2025-10-22"
+    }
+  },
+  {
+    "cve": "CVE-2024-2075",
+    "product": "HTTP Server",
+    "vendor": "Apache",
+    "status": "High",
+    "date_added": "2025-09-15",
+    "deadline": "2025-10-06",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "Government"
+      ],
+      "recommended_deadline": "2025-10-04"
+    }
+  },
+  {
+    "cve": "CVE-2024-5343",
+    "product": "Drupal Core",
+    "vendor": "Drupal",
+    "status": "High",
+    "date_added": "2025-09-04",
+    "deadline": "2025-09-25",
+    "reference": "Vendor",
+    "kenya_context": {
+      "sectors": [
+        "Education"
+      ],
+      "recommended_deadline": "2025-09-20"
+    }
+  }
+]

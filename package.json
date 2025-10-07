@@ -1,0 +1,31 @@
+{
+  "name": "kenya-cyber-sa-platform",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Kenya Cyber Situational Awareness Platform (MVP demo).",
+  "workspaces": [
+    "apps/frontend",
+    "apps/backend"
+  ],
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:backend dev:frontend",
+    "dev:backend": "npm --workspace apps/backend run dev",
+    "dev:frontend": "npm --workspace apps/frontend run dev",
+    "build": "npm-run-all build:backend build:frontend",
+    "build:backend": "npm --workspace apps/backend run build",
+    "build:frontend": "npm --workspace apps/frontend run build",
+    "lint": "npm-run-all lint:backend lint:frontend",
+    "lint:backend": "npm --workspace apps/backend run lint",
+    "lint:frontend": "npm --workspace apps/frontend run lint",
+    "test": "npm-run-all test:backend test:frontend",
+    "test:backend": "npm --workspace apps/backend run test",
+    "test:frontend": "npm --workspace apps/frontend run test",
+    "format": "npm-run-all format:backend format:frontend",
+    "format:backend": "npm --workspace apps/backend run format",
+    "format:frontend": "npm --workspace apps/frontend run format",
+    "prisma": "npm --workspace apps/backend run prisma --"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

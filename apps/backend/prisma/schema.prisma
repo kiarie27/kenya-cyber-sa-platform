@@ -1,0 +1,130 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  displayName   String
+  organisation  String
+  roles         String   @default("ANALYST") // comma-delimited roles
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  incidents     Incident[] @relation("IncidentReporter")
+  notes         IncidentNote[]
+  approvals     AdvisoryApproval[]
+  advisories    Advisory[] @relation("AdvisoryCreator")
+}
+
+model Incident {
+  id             String    @id @default(cuid())
+  title          String
+  summary        String
+  tlp            String   @default("AMBER")
+  severity       String   @default("MEDIUM")
+  sector         String
+  incidentType   String
+  status         String   @default("NEW")
+  occurredAt     DateTime
+  reporter       User      @relation("IncidentReporter", fields: [reporterId], references: [id])
+  reporterId     String
+  organisation   String
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  notes          IncidentNote[]
+  indicators     Indicator[]
+  advisory       Advisory? @relation(fields: [advisoryId], references: [id])
+  advisoryId     String?   @unique
+}
+
+model IncidentNote {
+  id         String   @id @default(cuid())
+  incident   Incident @relation(fields: [incidentId], references: [id])
+  incidentId String
+  author     User     @relation(fields: [authorId], references: [id])
+  authorId   String
+  body       String
+  createdAt  DateTime @default(now())
+}
+
+model Indicator {
+  id          String   @id @default(cuid())
+  incident    Incident @relation(fields: [incidentId], references: [id])
+  incidentId  String
+  type        String
+  value       String
+  tlp         String   @default("AMBER")
+  description String?
+  createdAt   DateTime @default(now())
+}
+
+model Advisory {
+  id              String            @id @default(cuid())
+  slug            String            @unique
+  title           String
+  summary         String
+  actions         String
+  detection       String?
+  audience        String
+  severity        String   @default("MEDIUM")
+  tlp             String   @default("CLEAR")
+  status          String   @default("DRAFT")
+  publishedAt     DateTime?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  createdBy       User       @relation("AdvisoryCreator", fields: [createdById], references: [id])
+  createdById     String
+  approvals       AdvisoryApproval[]
+  incidents       Incident[]
+}
+
+model AdvisoryApproval {
+  id          String   @id @default(cuid())
+  advisory    Advisory @relation(fields: [advisoryId], references: [id])
+  advisoryId  String
+  approver    User     @relation(fields: [approverId], references: [id])
+  approverId  String
+  role        String
+  approvedAt  DateTime @default(now())
+
+  @@unique([advisoryId, role])
+}
+
+model KevRecord {
+  id                  String   @id @default(cuid())
+  cve                 String
+  vendor              String
+  product             String
+  vulnerabilityName   String?
+  status              String   @default("EXPLOITED")
+  dateAdded           DateTime
+  deadline            DateTime
+  reference           String
+  sectors             String   @default("") // semicolon-delimited
+  recommendedDeadline DateTime?
+  description         String?
+  createdAt           DateTime @default(now())
+}
+
+model TrendSnapshot {
+  id          String   @id @default(cuid())
+  year        Int
+  week        Int
+  dataJson    String   @default("{}")
+  generatedAt DateTime @default(now())
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  actorId    String?
+  action     String
+  entityType String
+  entityId   String?
+  metadata   String?
+  createdAt  DateTime @default(now())
+}

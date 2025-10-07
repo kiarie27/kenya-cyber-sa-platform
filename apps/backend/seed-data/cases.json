@@ -1,0 +1,524 @@
+[
+  {
+    "id": 1,
+    "title": "Phishing-led malware in finance unit",
+    "severity": 3,
+    "tlp": "GREEN",
+    "sector": "Education",
+    "dedup_group": 3,
+    "status": "Assigned",
+    "timeline": [
+      {
+        "ts": "2025-09-19",
+        "event": "Initial report submitted."
+      },
+      {
+        "ts": "2025-09-20",
+        "event": "Investigation started by central analyst."
+      }
+    ],
+    "iocs": [
+      {
+        "type": "domain",
+        "value": "malicious-0.example.net",
+        "tlp": "AMBER"
+      },
+      {
+        "type": "hash",
+        "value": "e3b0c44298fc1c149afbf4c8996fb924",
+        "tlp": "AMBER"
+      }
+    ],
+    "draft_advisory": {
+      "title": "Advisory Draft: Phishing-led malware in finance unit",
+      "summary": "Sanitized summary suitable for public once approved.",
+      "what_to_do_now": [
+        "Isolate affected systems.",
+        "Apply vendor patches immediately.",
+        "Rotate credentials and enforce MFA."
+      ],
+      "who_is_affected": "Organizations using common enterprise platforms across Kenya.",
+      "how_to_check": [
+        "Review authentication logs for anomalies.",
+        "Check EDR alerts for related detections."
+      ],
+      "references": [
+        "https://example.com/advisory",
+        "https://example.com/mitre"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Ransomware attempt blocked",
+    "severity": 3,
+    "tlp": "GREEN",
+    "sector": "Healthcare",
+    "dedup_group": 2,
+    "status": "Assigned",
+    "timeline": [
+      {
+        "ts": "2025-09-20",
+        "event": "Initial report submitted."
+      },
+      {
+        "ts": "2025-09-18",
+        "event": "Investigation started by central analyst."
+      }
+    ],
+    "iocs": [],
+    "draft_advisory": {
+      "title": "Advisory Draft: Ransomware attempt blocked",
+      "summary": "Sanitized summary suitable for public once approved.",
+      "what_to_do_now": [
+        "Isolate affected systems.",
+        "Apply vendor patches immediately.",
+        "Rotate credentials and enforce MFA."
+      ],
+      "who_is_affected": "Organizations using common enterprise platforms across Kenya.",
+      "how_to_check": [
+        "Review authentication logs for anomalies.",
+        "Check EDR alerts for related detections."
+      ],
+      "references": [
+        "https://example.com/advisory",
+        "https://example.com/mitre"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": "Brute force on VPN gateway",
+    "severity": 2,
+    "tlp": "GREEN",
+    "sector": "Telecom",
+    "dedup_group": 2,
+    "status": "Assigned",
+    "timeline": [
+      {
+        "ts": "2025-10-04",
+        "event": "Initial report submitted."
+      },
+      {
+        "ts": "2025-09-30",
+        "event": "Investigation started by central analyst."
+      }
+    ],
+    "iocs": [
+      {
+        "type": "domain",
+        "value": "malicious-2.example.net",
+        "tlp": "AMBER"
+      },
+      {
+        "type": "hash",
+        "value": "e3b0c44298fc1c149afbf4c8996fb924",
+        "tlp": "AMBER"
+      }
+    ],
+    "draft_advisory": {
+      "title": "Advisory Draft: Brute force on VPN gateway",
+      "summary": "Sanitized summary suitable for public once approved.",
+      "what_to_do_now": [
+        "Isolate affected systems.",
+        "Apply vendor patches immediately.",
+        "Rotate credentials and enforce MFA."
+      ],
+      "who_is_affected": "Organizations using common enterprise platforms across Kenya.",
+      "how_to_check": [
+        "Review authentication logs for anomalies.",
+        "Check EDR alerts for related detections."
+      ],
+      "references": [
+        "https://example.com/advisory",
+        "https://example.com/mitre"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": "Suspicious lateral movement detected",
+    "severity": 1,
+    "tlp": "GREEN",
+    "sector": "Healthcare",
+    "dedup_group": 3,
+    "status": "Assigned",
+    "timeline": [
+      {
+        "ts": "2025-10-05",
+        "event": "Initial report submitted."
+      },
+      {
+        "ts": "2025-09-27",
+        "event": "Investigation started by central analyst."
+      }
+    ],
+    "iocs": [],
+    "draft_advisory": {
+      "title": "Advisory Draft: Suspicious lateral movement detected",
+      "summary": "Sanitized summary suitable for public once approved.",
+      "what_to_do_now": [
+        "Isolate affected systems.",
+        "Apply vendor patches immediately.",
+        "Rotate credentials and enforce MFA."
+      ],
+      "who_is_affected": "Organizations using common enterprise platforms across Kenya.",
+      "how_to_check": [
+        "Review authentication logs for anomalies.",
+        "Check EDR alerts for related detections."
+      ],
+      "references": [
+        "https://example.com/advisory",
+        "https://example.com/mitre"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "title": "Data exfiltration via cloud share",
+    "severity": 2,
+    "tlp": "GREEN",
+    "sector": "Education",
+    "dedup_group": 3,
+    "status": "Assigned",
+    "timeline": [
+      {
+        "ts": "2025-10-03",
+        "event": "Initial report submitted."
+      },
+      {
+        "ts": "2025-09-21",
+        "event": "Investigation started by central analyst."
+      }
+    ],
+    "iocs": [
+      {
+        "type": "domain",
+        "value": "malicious-4.example.net",
+        "tlp": "AMBER"
+      },
+      {
+        "type": "hash",
+        "value": "e3b0c44298fc1c149afbf4c8996fb924",
+        "tlp": "AMBER"
+      }
+    ],
+    "draft_advisory": {
+      "title": "Advisory Draft: Data exfiltration via cloud share",
+      "summary": "Sanitized summary suitable for public once approved.",
+      "what_to_do_now": [
+        "Isolate affected systems.",
+        "Apply vendor patches immediately.",
+        "Rotate credentials and enforce MFA."
+      ],
+      "who_is_affected": "Organizations using common enterprise platforms across Kenya.",
+      "how_to_check": [
+        "Review authentication logs for anomalies.",
+        "Check EDR alerts for related detections."
+      ],
+      "references": [
+        "https://example.com/advisory",
+        "https://example.com/mitre"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "title": "DDoS against public portal",
+    "severity": 1,
+    "tlp": "AMBER",
+    "sector": "Healthcare",
+    "dedup_group": 1,
+    "status": "Assigned",
+    "timeline": [
+      {
+        "ts": "2025-10-04",
+        "event": "Initial report submitted."
+      },
+      {
+        "ts": "2025-09-21",
+        "event": "Investigation started by central analyst."
+      }
+    ],
+    "iocs": [],
+    "draft_advisory": {
+      "title": "Advisory Draft: DDoS against public portal",
+      "summary": "Sanitized summary suitable for public once approved.",
+      "what_to_do_now": [
+        "Isolate affected systems.",
+        "Apply vendor patches immediately.",
+        "Rotate credentials and enforce MFA."
+      ],
+      "who_is_affected": "Organizations using common enterprise platforms across Kenya.",
+      "how_to_check": [
+        "Review authentication logs for anomalies.",
+        "Check EDR alerts for related detections."
+      ],
+      "references": [
+        "https://example.com/advisory",
+        "https://example.com/mitre"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "title": "Web shell found on CMS server",
+    "severity": 2,
+    "tlp": "RED",
+    "sector": "Financial",
+    "dedup_group": 4,
+    "status": "Assigned",
+    "timeline": [
+      {
+        "ts": "2025-10-02",
+        "event": "Initial report submitted."
+      },
+      {
+        "ts": "2025-10-07",
+        "event": "Investigation started by central analyst."
+      }
+    ],
+    "iocs": [
+      {
+        "type": "domain",
+        "value": "malicious-6.example.net",
+        "tlp": "AMBER"
+      },
+      {
+        "type": "hash",
+        "value": "e3b0c44298fc1c149afbf4c8996fb924",
+        "tlp": "AMBER"
+      }
+    ],
+    "draft_advisory": {
+      "title": "Advisory Draft: Web shell found on CMS server",
+      "summary": "Sanitized summary suitable for public once approved.",
+      "what_to_do_now": [
+        "Isolate affected systems.",
+        "Apply vendor patches immediately.",
+        "Rotate credentials and enforce MFA."
+      ],
+      "who_is_affected": "Organizations using common enterprise platforms across Kenya.",
+      "how_to_check": [
+        "Review authentication logs for anomalies.",
+        "Check EDR alerts for related detections."
+      ],
+      "references": [
+        "https://example.com/advisory",
+        "https://example.com/mitre"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "title": "Privilege escalation on endpoint",
+    "severity": 1,
+    "tlp": "RED",
+    "sector": "Financial",
+    "dedup_group": 3,
+    "status": "Drafted",
+    "timeline": [
+      {
+        "ts": "2025-10-01",
+        "event": "Initial report submitted."
+      },
+      {
+        "ts": "2025-09-23",
+        "event": "Investigation started by central analyst."
+      }
+    ],
+    "iocs": [],
+    "draft_advisory": {
+      "title": "Advisory Draft: Privilege escalation on endpoint",
+      "summary": "Sanitized summary suitable for public once approved.",
+      "what_to_do_now": [
+        "Isolate affected systems.",
+        "Apply vendor patches immediately.",
+        "Rotate credentials and enforce MFA."
+      ],
+      "who_is_affected": "Organizations using common enterprise platforms across Kenya.",
+      "how_to_check": [
+        "Review authentication logs for anomalies.",
+        "Check EDR alerts for related detections."
+      ],
+      "references": [
+        "https://example.com/advisory",
+        "https://example.com/mitre"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "title": "Insider credential misuse",
+    "severity": 3,
+    "tlp": "AMBER",
+    "sector": "Telecom",
+    "dedup_group": 4,
+    "status": "New",
+    "timeline": [
+      {
+        "ts": "2025-09-27",
+        "event": "Initial report submitted."
+      },
+      {
+        "ts": "2025-10-05",
+        "event": "Investigation started by central analyst."
+      }
+    ],
+    "iocs": [
+      {
+        "type": "domain",
+        "value": "malicious-8.example.net",
+        "tlp": "AMBER"
+      },
+      {
+        "type": "hash",
+        "value": "e3b0c44298fc1c149afbf4c8996fb924",
+        "tlp": "AMBER"
+      }
+    ],
+    "draft_advisory": {
+      "title": "Advisory Draft: Insider credential misuse",
+      "summary": "Sanitized summary suitable for public once approved.",
+      "what_to_do_now": [
+        "Isolate affected systems.",
+        "Apply vendor patches immediately.",
+        "Rotate credentials and enforce MFA."
+      ],
+      "who_is_affected": "Organizations using common enterprise platforms across Kenya.",
+      "how_to_check": [
+        "Review authentication logs for anomalies.",
+        "Check EDR alerts for related detections."
+      ],
+      "references": [
+        "https://example.com/advisory",
+        "https://example.com/mitre"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "title": "Supply chain package compromise",
+    "severity": 1,
+    "tlp": "GREEN",
+    "sector": "Energy",
+    "dedup_group": 4,
+    "status": "New",
+    "timeline": [
+      {
+        "ts": "2025-09-12",
+        "event": "Initial report submitted."
+      },
+      {
+        "ts": "2025-09-22",
+        "event": "Investigation started by central analyst."
+      }
+    ],
+    "iocs": [],
+    "draft_advisory": {
+      "title": "Advisory Draft: Supply chain package compromise",
+      "summary": "Sanitized summary suitable for public once approved.",
+      "what_to_do_now": [
+        "Isolate affected systems.",
+        "Apply vendor patches immediately.",
+        "Rotate credentials and enforce MFA."
+      ],
+      "who_is_affected": "Organizations using common enterprise platforms across Kenya.",
+      "how_to_check": [
+        "Review authentication logs for anomalies.",
+        "Check EDR alerts for related detections."
+      ],
+      "references": [
+        "https://example.com/advisory",
+        "https://example.com/mitre"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "title": "Phishing targeting payroll",
+    "severity": 3,
+    "tlp": "AMBER",
+    "sector": "County",
+    "dedup_group": 2,
+    "status": "Drafted",
+    "timeline": [
+      {
+        "ts": "2025-09-19",
+        "event": "Initial report submitted."
+      },
+      {
+        "ts": "2025-09-26",
+        "event": "Investigation started by central analyst."
+      }
+    ],
+    "iocs": [
+      {
+        "type": "domain",
+        "value": "malicious-10.example.net",
+        "tlp": "AMBER"
+      },
+      {
+        "type": "hash",
+        "value": "e3b0c44298fc1c149afbf4c8996fb924",
+        "tlp": "AMBER"
+      }
+    ],
+    "draft_advisory": {
+      "title": "Advisory Draft: Phishing targeting payroll",
+      "summary": "Sanitized summary suitable for public once approved.",
+      "what_to_do_now": [
+        "Isolate affected systems.",
+        "Apply vendor patches immediately.",
+        "Rotate credentials and enforce MFA."
+      ],
+      "who_is_affected": "Organizations using common enterprise platforms across Kenya.",
+      "how_to_check": [
+        "Review authentication logs for anomalies.",
+        "Check EDR alerts for related detections."
+      ],
+      "references": [
+        "https://example.com/advisory",
+        "https://example.com/mitre"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "title": "Legacy protocol exposure",
+    "severity": 3,
+    "tlp": "AMBER",
+    "sector": "Government",
+    "dedup_group": 2,
+    "status": "New",
+    "timeline": [
+      {
+        "ts": "2025-09-11",
+        "event": "Initial report submitted."
+      },
+      {
+        "ts": "2025-09-20",
+        "event": "Investigation started by central analyst."
+      }
+    ],
+    "iocs": [],
+    "draft_advisory": {
+      "title": "Advisory Draft: Legacy protocol exposure",
+      "summary": "Sanitized summary suitable for public once approved.",
+      "what_to_do_now": [
+        "Isolate affected systems.",
+        "Apply vendor patches immediately.",
+        "Rotate credentials and enforce MFA."
+      ],
+      "who_is_affected": "Organizations using common enterprise platforms across Kenya.",
+      "how_to_check": [
+        "Review authentication logs for anomalies.",
+        "Check EDR alerts for related detections."
+      ],
+      "references": [
+        "https://example.com/advisory",
+        "https://example.com/mitre"
+      ]
+    }
+  }
+]

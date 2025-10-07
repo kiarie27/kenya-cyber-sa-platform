@@ -1,0 +1,674 @@
+[
+  {
+    "week_start": "2025-07-21",
+    "phishing_count": 18,
+    "top_exploited": [
+      {
+        "category": "Phishing",
+        "count": 7
+      },
+      {
+        "category": "Ransomware",
+        "count": 4
+      },
+      {
+        "category": "Web Exploits",
+        "count": 9
+      },
+      {
+        "category": "Credential Stuffing",
+        "count": 4
+      },
+      {
+        "category": "Insider/Leak",
+        "count": 5
+      }
+    ],
+    "sector_signals": [
+      {
+        "sector": "Government",
+        "score": 53
+      },
+      {
+        "sector": "County",
+        "score": 24
+      },
+      {
+        "sector": "Financial",
+        "score": 43
+      },
+      {
+        "sector": "Healthcare",
+        "score": 81
+      },
+      {
+        "sector": "Education",
+        "score": 46
+      },
+      {
+        "sector": "Telecom",
+        "score": 59
+      },
+      {
+        "sector": "Energy",
+        "score": 88
+      }
+    ]
+  },
+  {
+    "week_start": "2025-07-28",
+    "phishing_count": 12,
+    "top_exploited": [
+      {
+        "category": "Phishing",
+        "count": 6
+      },
+      {
+        "category": "Ransomware",
+        "count": 3
+      },
+      {
+        "category": "Web Exploits",
+        "count": 10
+      },
+      {
+        "category": "Credential Stuffing",
+        "count": 1
+      },
+      {
+        "category": "Insider/Leak",
+        "count": 4
+      }
+    ],
+    "sector_signals": [
+      {
+        "sector": "Government",
+        "score": 77
+      },
+      {
+        "sector": "County",
+        "score": 35
+      },
+      {
+        "sector": "Financial",
+        "score": 35
+      },
+      {
+        "sector": "Healthcare",
+        "score": 62
+      },
+      {
+        "sector": "Education",
+        "score": 41
+      },
+      {
+        "sector": "Telecom",
+        "score": 31
+      },
+      {
+        "sector": "Energy",
+        "score": 62
+      }
+    ]
+  },
+  {
+    "week_start": "2025-08-04",
+    "phishing_count": 12,
+    "top_exploited": [
+      {
+        "category": "Phishing",
+        "count": 3
+      },
+      {
+        "category": "Ransomware",
+        "count": 0
+      },
+      {
+        "category": "Web Exploits",
+        "count": 3
+      },
+      {
+        "category": "Credential Stuffing",
+        "count": 5
+      },
+      {
+        "category": "Insider/Leak",
+        "count": 0
+      }
+    ],
+    "sector_signals": [
+      {
+        "sector": "Government",
+        "score": 95
+      },
+      {
+        "sector": "County",
+        "score": 81
+      },
+      {
+        "sector": "Financial",
+        "score": 81
+      },
+      {
+        "sector": "Healthcare",
+        "score": 29
+      },
+      {
+        "sector": "Education",
+        "score": 55
+      },
+      {
+        "sector": "Telecom",
+        "score": 49
+      },
+      {
+        "sector": "Energy",
+        "score": 32
+      }
+    ]
+  },
+  {
+    "week_start": "2025-08-11",
+    "phishing_count": 21,
+    "top_exploited": [
+      {
+        "category": "Phishing",
+        "count": 10
+      },
+      {
+        "category": "Ransomware",
+        "count": 6
+      },
+      {
+        "category": "Web Exploits",
+        "count": 2
+      },
+      {
+        "category": "Credential Stuffing",
+        "count": 6
+      },
+      {
+        "category": "Insider/Leak",
+        "count": 3
+      }
+    ],
+    "sector_signals": [
+      {
+        "sector": "Government",
+        "score": 28
+      },
+      {
+        "sector": "County",
+        "score": 93
+      },
+      {
+        "sector": "Financial",
+        "score": 87
+      },
+      {
+        "sector": "Healthcare",
+        "score": 69
+      },
+      {
+        "sector": "Education",
+        "score": 22
+      },
+      {
+        "sector": "Telecom",
+        "score": 57
+      },
+      {
+        "sector": "Energy",
+        "score": 20
+      }
+    ]
+  },
+  {
+    "week_start": "2025-08-18",
+    "phishing_count": 25,
+    "top_exploited": [
+      {
+        "category": "Phishing",
+        "count": 11
+      },
+      {
+        "category": "Ransomware",
+        "count": 3
+      },
+      {
+        "category": "Web Exploits",
+        "count": 7
+      },
+      {
+        "category": "Credential Stuffing",
+        "count": 1
+      },
+      {
+        "category": "Insider/Leak",
+        "count": 2
+      }
+    ],
+    "sector_signals": [
+      {
+        "sector": "Government",
+        "score": 22
+      },
+      {
+        "sector": "County",
+        "score": 28
+      },
+      {
+        "sector": "Financial",
+        "score": 35
+      },
+      {
+        "sector": "Healthcare",
+        "score": 89
+      },
+      {
+        "sector": "Education",
+        "score": 59
+      },
+      {
+        "sector": "Telecom",
+        "score": 68
+      },
+      {
+        "sector": "Energy",
+        "score": 75
+      }
+    ]
+  },
+  {
+    "week_start": "2025-08-25",
+    "phishing_count": 16,
+    "top_exploited": [
+      {
+        "category": "Phishing",
+        "count": 8
+      },
+      {
+        "category": "Ransomware",
+        "count": 1
+      },
+      {
+        "category": "Web Exploits",
+        "count": 3
+      },
+      {
+        "category": "Credential Stuffing",
+        "count": 2
+      },
+      {
+        "category": "Insider/Leak",
+        "count": 5
+      }
+    ],
+    "sector_signals": [
+      {
+        "sector": "Government",
+        "score": 34
+      },
+      {
+        "sector": "County",
+        "score": 49
+      },
+      {
+        "sector": "Financial",
+        "score": 93
+      },
+      {
+        "sector": "Healthcare",
+        "score": 43
+      },
+      {
+        "sector": "Education",
+        "score": 26
+      },
+      {
+        "sector": "Telecom",
+        "score": 92
+      },
+      {
+        "sector": "Energy",
+        "score": 45
+      }
+    ]
+  },
+  {
+    "week_start": "2025-09-01",
+    "phishing_count": 22,
+    "top_exploited": [
+      {
+        "category": "Phishing",
+        "count": 5
+      },
+      {
+        "category": "Ransomware",
+        "count": 5
+      },
+      {
+        "category": "Web Exploits",
+        "count": 10
+      },
+      {
+        "category": "Credential Stuffing",
+        "count": 7
+      },
+      {
+        "category": "Insider/Leak",
+        "count": 2
+      }
+    ],
+    "sector_signals": [
+      {
+        "sector": "Government",
+        "score": 20
+      },
+      {
+        "sector": "County",
+        "score": 51
+      },
+      {
+        "sector": "Financial",
+        "score": 86
+      },
+      {
+        "sector": "Healthcare",
+        "score": 50
+      },
+      {
+        "sector": "Education",
+        "score": 83
+      },
+      {
+        "sector": "Telecom",
+        "score": 47
+      },
+      {
+        "sector": "Energy",
+        "score": 55
+      }
+    ]
+  },
+  {
+    "week_start": "2025-09-08",
+    "phishing_count": 29,
+    "top_exploited": [
+      {
+        "category": "Phishing",
+        "count": 10
+      },
+      {
+        "category": "Ransomware",
+        "count": 3
+      },
+      {
+        "category": "Web Exploits",
+        "count": 5
+      },
+      {
+        "category": "Credential Stuffing",
+        "count": 1
+      },
+      {
+        "category": "Insider/Leak",
+        "count": 2
+      }
+    ],
+    "sector_signals": [
+      {
+        "sector": "Government",
+        "score": 76
+      },
+      {
+        "sector": "County",
+        "score": 37
+      },
+      {
+        "sector": "Financial",
+        "score": 78
+      },
+      {
+        "sector": "Healthcare",
+        "score": 37
+      },
+      {
+        "sector": "Education",
+        "score": 81
+      },
+      {
+        "sector": "Telecom",
+        "score": 55
+      },
+      {
+        "sector": "Energy",
+        "score": 22
+      }
+    ]
+  },
+  {
+    "week_start": "2025-09-15",
+    "phishing_count": 18,
+    "top_exploited": [
+      {
+        "category": "Phishing",
+        "count": 9
+      },
+      {
+        "category": "Ransomware",
+        "count": 0
+      },
+      {
+        "category": "Web Exploits",
+        "count": 9
+      },
+      {
+        "category": "Credential Stuffing",
+        "count": 5
+      },
+      {
+        "category": "Insider/Leak",
+        "count": 3
+      }
+    ],
+    "sector_signals": [
+      {
+        "sector": "Government",
+        "score": 67
+      },
+      {
+        "sector": "County",
+        "score": 30
+      },
+      {
+        "sector": "Financial",
+        "score": 67
+      },
+      {
+        "sector": "Healthcare",
+        "score": 61
+      },
+      {
+        "sector": "Education",
+        "score": 64
+      },
+      {
+        "sector": "Telecom",
+        "score": 56
+      },
+      {
+        "sector": "Energy",
+        "score": 38
+      }
+    ]
+  },
+  {
+    "week_start": "2025-09-22",
+    "phishing_count": 30,
+    "top_exploited": [
+      {
+        "category": "Phishing",
+        "count": 3
+      },
+      {
+        "category": "Ransomware",
+        "count": 8
+      },
+      {
+        "category": "Web Exploits",
+        "count": 8
+      },
+      {
+        "category": "Credential Stuffing",
+        "count": 0
+      },
+      {
+        "category": "Insider/Leak",
+        "count": 2
+      }
+    ],
+    "sector_signals": [
+      {
+        "sector": "Government",
+        "score": 52
+      },
+      {
+        "sector": "County",
+        "score": 46
+      },
+      {
+        "sector": "Financial",
+        "score": 26
+      },
+      {
+        "sector": "Healthcare",
+        "score": 81
+      },
+      {
+        "sector": "Education",
+        "score": 33
+      },
+      {
+        "sector": "Telecom",
+        "score": 35
+      },
+      {
+        "sector": "Energy",
+        "score": 65
+      }
+    ]
+  },
+  {
+    "week_start": "2025-09-29",
+    "phishing_count": 20,
+    "top_exploited": [
+      {
+        "category": "Phishing",
+        "count": 4
+      },
+      {
+        "category": "Ransomware",
+        "count": 5
+      },
+      {
+        "category": "Web Exploits",
+        "count": 5
+      },
+      {
+        "category": "Credential Stuffing",
+        "count": 2
+      },
+      {
+        "category": "Insider/Leak",
+        "count": 4
+      }
+    ],
+    "sector_signals": [
+      {
+        "sector": "Government",
+        "score": 50
+      },
+      {
+        "sector": "County",
+        "score": 51
+      },
+      {
+        "sector": "Financial",
+        "score": 92
+      },
+      {
+        "sector": "Healthcare",
+        "score": 44
+      },
+      {
+        "sector": "Education",
+        "score": 79
+      },
+      {
+        "sector": "Telecom",
+        "score": 71
+      },
+      {
+        "sector": "Energy",
+        "score": 84
+      }
+    ]
+  },
+  {
+    "week_start": "2025-10-06",
+    "phishing_count": 29,
+    "top_exploited": [
+      {
+        "category": "Phishing",
+        "count": 5
+      },
+      {
+        "category": "Ransomware",
+        "count": 1
+      },
+      {
+        "category": "Web Exploits",
+        "count": 5
+      },
+      {
+        "category": "Credential Stuffing",
+        "count": 5
+      },
+      {
+        "category": "Insider/Leak",
+        "count": 5
+      }
+    ],
+    "sector_signals": [
+      {
+        "sector": "Government",
+        "score": 74
+      },
+      {
+        "sector": "County",
+        "score": 65
+      },
+      {
+        "sector": "Financial",
+        "score": 92
+      },
+      {
+        "sector": "Healthcare",
+        "score": 55
+      },
+      {
+        "sector": "Education",
+        "score": 95
+      },
+      {
+        "sector": "Telecom",
+        "score": 79
+      },
+      {
+        "sector": "Energy",
+        "score": 31
+      }
+    ]
+  }
+]

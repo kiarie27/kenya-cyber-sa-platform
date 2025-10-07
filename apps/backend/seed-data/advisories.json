@@ -1,0 +1,703 @@
+[
+  {
+    "id": 1,
+    "title": "Critical Patch for Email Gateway",
+    "severity": 1,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "County",
+      "CNI"
+    ],
+    "date": "2025-07-19",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/guide",
+      "https://example.com/mitre",
+      "https://example.com/patch"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Ransomware Activity Targeting Counties",
+    "severity": 1,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "County",
+      "CNI",
+      "Public"
+    ],
+    "date": "2025-06-20",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/cisa",
+      "https://example.com/vendor-advisory",
+      "https://example.com/mitre"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Urgent Browser Update Required",
+    "severity": 3,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "CNI"
+    ],
+    "date": "2025-09-20",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/patch",
+      "https://example.com/mitre",
+      "https://example.com/vendor-advisory"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Privilege Escalation in Server OS",
+    "severity": 3,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "County",
+      "CNI"
+    ],
+    "date": "2025-09-28",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/mitre",
+      "https://example.com/guide",
+      "https://example.com/patch"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "VPN Appliance Vulnerability Advisory",
+    "severity": 1,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "County"
+    ],
+    "date": "2025-07-01",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/guide",
+      "https://example.com/cisa",
+      "https://example.com/mitre"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Phishing Campaign Using Fake eCitizen",
+    "severity": 2,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "County",
+      "CNI"
+    ],
+    "date": "2025-09-20",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/patch",
+      "https://example.com/cisa",
+      "https://example.com/guide"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Supply Chain Package Risk Advisory",
+    "severity": 1,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "County",
+      "CNI",
+      "Public"
+    ],
+    "date": "2025-08-27",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/cisa",
+      "https://example.com/patch",
+      "https://example.com/mitre"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Weak MFA Configuration Guidance",
+    "severity": 3,
+    "tlp": "CLEAR",
+    "audience": [
+      "Public"
+    ],
+    "date": "2025-06-19",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/vendor-advisory",
+      "https://example.com/guide",
+      "https://example.com/cisa"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Database Exposure Risk Notice",
+    "severity": 1,
+    "tlp": "CLEAR",
+    "audience": [
+      "Public"
+    ],
+    "date": "2025-07-07",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/cisa",
+      "https://example.com/patch",
+      "https://example.com/mitre"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "DNS Hijack Attempts Observed",
+    "severity": 3,
+    "tlp": "CLEAR",
+    "audience": [
+      "Public"
+    ],
+    "date": "2025-09-06",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/patch",
+      "https://example.com/guide",
+      "https://example.com/cisa"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Endpoint Agent Update Advisory",
+    "severity": 2,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "County",
+      "CNI",
+      "Public"
+    ],
+    "date": "2025-09-08",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/patch",
+      "https://example.com/mitre",
+      "https://example.com/vendor-advisory"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Cloud Access Key Leakage Risks",
+    "severity": 2,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "County",
+      "CNI"
+    ],
+    "date": "2025-06-20",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/mitre",
+      "https://example.com/patch",
+      "https://example.com/vendor-advisory"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "IoT Camera Firmware Advisory",
+    "severity": 2,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "CNI"
+    ],
+    "date": "2025-07-14",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/mitre",
+      "https://example.com/cisa",
+      "https://example.com/vendor-advisory"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Spearphishing Targeting Payroll Teams",
+    "severity": 1,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "County"
+    ],
+    "date": "2025-09-13",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/guide",
+      "https://example.com/cisa",
+      "https://example.com/vendor-advisory"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Fake Mobile Money App Warning",
+    "severity": 1,
+    "tlp": "CLEAR",
+    "audience": [
+      "Public"
+    ],
+    "date": "2025-07-31",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/cisa",
+      "https://example.com/patch",
+      "https://example.com/mitre"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "POS Malware Mitigation Advisory",
+    "severity": 2,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "County"
+    ],
+    "date": "2025-07-01",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/guide",
+      "https://example.com/mitre",
+      "https://example.com/cisa"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Wormable File Share Vulnerability",
+    "severity": 2,
+    "tlp": "CLEAR",
+    "audience": [
+      "Public"
+    ],
+    "date": "2025-06-16",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/vendor-advisory",
+      "https://example.com/cisa",
+      "https://example.com/patch"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Critical ERP Patch (Finance Modules)",
+    "severity": 2,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "CNI"
+    ],
+    "date": "2025-08-07",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/cisa",
+      "https://example.com/guide",
+      "https://example.com/patch"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "CMS Plugin Exploit Advisory",
+    "severity": 3,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "CNI"
+    ],
+    "date": "2025-09-11",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/vendor-advisory",
+      "https://example.com/cisa",
+      "https://example.com/patch"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Remote Desktop Brute Force Trends",
+    "severity": 1,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "CNI"
+    ],
+    "date": "2025-09-26",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/guide",
+      "https://example.com/vendor-advisory",
+      "https://example.com/patch"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Insider Data Exfiltration Patterns",
+    "severity": 2,
+    "tlp": "CLEAR",
+    "audience": [
+      "Public"
+    ],
+    "date": "2025-06-23",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/cisa",
+      "https://example.com/guide",
+      "https://example.com/patch"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Malvertising via Search Results",
+    "severity": 1,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "County"
+    ],
+    "date": "2025-06-11",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/mitre",
+      "https://example.com/cisa",
+      "https://example.com/patch"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Zero-Day in PDF Reader",
+    "severity": 2,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "County",
+      "CNI"
+    ],
+    "date": "2025-06-20",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/mitre",
+      "https://example.com/vendor-advisory",
+      "https://example.com/cisa"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Lateral Movement via Legacy Protocols",
+    "severity": 3,
+    "tlp": "CLEAR",
+    "audience": [
+      "Gov",
+      "CNI"
+    ],
+    "date": "2025-09-16",
+    "summary": "Defender-first guidance based on aggregated signals. No specific indicators are disclosed.",
+    "what_to_do_now": [
+      "Apply the latest vendor patch.",
+      "Disable exposed services until patched.",
+      "Enforce multi-factor authentication on all accounts.",
+      "Increase monitoring on affected systems for 14 days."
+    ],
+    "who_is_affected": "Organizations operating common enterprise systems across Government, Counties, and CNI.",
+    "how_to_check": [
+      "Review system logs for unusual authentication attempts.",
+      "Scan for unexpected processes or scheduled tasks.",
+      "Verify software versions match vendor-fixed builds."
+    ],
+    "references": [
+      "https://example.com/patch",
+      "https://example.com/vendor-advisory",
+      "https://example.com/cisa"
+    ]
+  }
+]
