@@ -103,6 +103,38 @@ Full request/response shapes are defined in `apps/frontend/src/types/api.ts` and
 
 Console output from the seed script is visible during tests; this is expected.
 
+## Deployment (Render + Static Hosting)
+
+The repository ships with a `render.yaml` blueprint that provisions:
+
+- A **Node web service** (`kcsa-backend`) for the Express API, including a 1 GB persistent disk mounted at `/var/data` to hold the SQLite database. The service builds via `npm --workspace apps/backend run build` and starts with `npm --workspace apps/backend run start`.
+- A **static site** (`kcsa-frontend`) that serves the React build from `apps/frontend/dist`.
+
+### Steps
+
+1. Push this repo to GitHub (already done).
+2. Sign in to [Render](https://render.com) → “New +” → “Blueprint”. Point it to the repository and confirm the previewed services.
+3. During the initial deploy, set the following environment variables in the Render dashboard:
+   - `SESSION_SECRET` – any strong random string.
+   - `DATABASE_URL` – already set by the blueprint to `file:/var/data/kcsa.db` (leave as-is).
+4. After the backend finishes provisioning, open a shell (`Render Dashboard → Shell`) and run `npm --workspace apps/backend run db:seed` once to populate the SQLite database on the persistent disk.
+5. For the static site service, set `VITE_API_BASE_URL` to the backend URL (e.g. `https://kcsa-backend.onrender.com/api`). Redeploy the static site to inject the environment variable.
+
+### Local Environment Variables
+
+When running locally, create `apps/backend/.env` with:
+
+```
+DATABASE_URL="file:../data/kcsa.db"
+SESSION_SECRET="dev-secret"
+```
+
+And create `apps/frontend/.env` (optional) to override the API base:
+
+```
+VITE_API_BASE_URL=http://localhost:4000/api
+```
+
 ## GitHub Repository Setup
 
 To publish this project:
