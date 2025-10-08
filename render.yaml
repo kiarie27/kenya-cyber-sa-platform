@@ -19,7 +19,7 @@ services:
     autoDeploy: true
 
   - name: kcsa-frontend
-    type: static_site
+    type: static
     plan: free
     buildCommand: |
       npm install
